@@ -30,17 +30,17 @@ this is notice
 
 ##Version Control
 아래의 형식에 맞춰서 branch를 만들고 용도에 맞게 사용
-####1. Master(Master) -> Master/Merge(Branch) <-> frame/[PageName]/[BranchName]
+1. Master(Master) -> Master/Merge(Branch) <-> frame/[PageName]/[BranchName]
 WireFrame 디자인 branch
-####2. Master(M) -> Master/Merge(B) <-> design/[PageName]/[BranchName]
+2. Master(M) -> Master/Merge(B) <-> design/[PageName]/[BranchName]
 Front-end 디자인 branch
-####3. Master(M) -> Master/Merge(B) <-> javascript/[PageName]/[BranchName]
+3. Master(M) -> Master/Merge(B) <-> javascript/[PageName]/[BranchName]
 javascript 개발 Branch
-####4. Master(M) -> Master/Merge(B) <-> debug/[PageName]/[BranchName]
+4. Master(M) -> Master/Merge(B) <-> debug/[PageName]/[BranchName]
 디버그(에러 수정 및 완성된 페이지의 추가 및 수정) Branch
-####5. Master(M) -> Master/Merge(B) <-> compat/[PageName]/[BranchName]
+5. Master(M) -> Master/Merge(B) <-> compat/[PageName]/[BranchName]
 브라우저 호환성 개발 및 디자인 Branch
-####5. Master(M) <- Master/Merge(B)
+5. Master(M) <- Master/Merge(B)
 Master : 배포 전용 Branch(모든 작업이 끝난 후에 Merge)
 
 ##Debug
